@@ -207,6 +207,7 @@ set(msg_files
 	SensorOpticalFlow.msg
 	SensorPreflightMag.msg
 	SensorSelection.msg
+	SensorSpectral.msg
 	SensorsStatus.msg
 	SensorsStatusImu.msg
 	SensorTemp.msg

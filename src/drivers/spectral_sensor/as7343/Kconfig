@@ -1,0 +1,5 @@
+menuconfig DRIVERS_SPECTRAL_SENSOR_AS7343
+	bool "AS7343 spectral sensor"
+	default n
+	---help---
+		Enable support for the ams OSRAM AS7343 14-channel multispectral sensor

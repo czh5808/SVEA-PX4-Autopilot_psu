@@ -160,6 +160,12 @@ then
 	mcp9808 start -X
 fi
 
+# ams OSRAM AS7343 spectral sensor external I2C
+if param compare -s SENS_EN_AS7343 1
+then
+	as7343 start -X
+fi
+
 # TE MS4515 differential pressure sensor external I2C
 if param compare -s SENS_EN_MS4515 1
 then
