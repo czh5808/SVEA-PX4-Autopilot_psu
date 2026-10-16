@@ -34,6 +34,8 @@ mavlink uorb_tunnel add -t power_monitor -i 4 -r 4 -f
 mavlink uorb_tunnel add -t power_monitor -i 5 -r 4 -f
 mavlink uorb_tunnel add -t power_monitor -i 6 -r 4 -f
 mavlink uorb_tunnel add -t power_monitor -i 7 -r 4 -f
+# as7343 spectral sensor
+mavlink uorb_tunnel add -t sensor_spectral -i 0 -r 4 -f
 
 # WS281x/WS2815 on PC9 is available, but do not auto-start at boot.
 # Start manually when needed:
